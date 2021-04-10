@@ -160,7 +160,7 @@ h1 {
 }
 
 .our-story {
-  margin-top: 12%;
+  margin-top: 09%;
 }
 
 .our-story ul{
@@ -171,6 +171,14 @@ h1 {
   list-style-type: none;
 }
 
+.our-story .fas {
+  margin-right: 12px;
+}
+
+.our-story .far {
+  margin-right: 12px;
+}
+
 .our-story li {
   margin-bottom: 26px;
 }
@@ -179,6 +187,42 @@ h1 {
   font-size: 25px;
 }
 
+.home-button {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: solid 1px grey;
+  margin-left: 88%;
+  margin-top: 12%;
+}
+
+.home-button p {
+  font-size: 19px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.home-button span {
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+/*------- PAGE 3 ------- */
+.postcard-two {
+  display: grid;
+  grid-template-columns: 13% 50% 37%;
+  grid-gap: 0px;
+  background-color: #eddfc6bd;
+  height: 90vh;
+  width: 90%;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
