@@ -1,0 +1,199 @@
+/*------- HOME ------- */
+
+body {
+  background: url(images/wallpaper.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  text-align: center;
+  border: solid 2px #EDDFC6;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 310px;
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+  font-weight: 100;
+}
+
+h3 {
+  color: #EDDFC6;
+  font-size: 45px;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  color: #EDDFC6;
+  font-size: 58px;
+  margin: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+
+/*------- PAGE 1 ------- */
+
+
+.postcard {
+  display: grid;
+  grid-template-columns: 13% 32% 55%;
+  grid-gap: 0px;
+  background-color: #eddfc6bd;
+  height: 90vh;
+  width: 90%;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---- COL 1 ----*/
+.date {
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  margin-bottom: 19%;
+  margin-left: 18%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.date h2 {
+  margin-bottom: 0;
+}
+
+.date h2 span {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+/*---- COL 2 ----*/
+.location {
+  height: 87%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.location img {
+  display: flex;
+  width: 100%;
+  height: 100%
+}
+
+
+/*---- COL 3 ----*/
+
+.post-stamp {
+  margin-left: 74%;
+  width: 20%;
+  height: 12%;
+  border: solid 1px black;
+  text-align: center;
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-stamp p {
+ margin: 0;
+ font-size: 23px;
+ font-family: 'Lato', sans-serif;
+ font-weight: 100;
+
+}
+
+.post-stamp span {
+  font-size: 26px;
+}
+
+
+.tab {
+  margin-top: 8%;
+}
+
+.tab span {
+  font-weight: bold;
+}
+
+.tab h3 {
+  color: black;
+  font-size: 23px;
+  text-align: right;
+  margin-right: 6%;
+  margin-top: 30px;
+}
+
+
+.welcome {
+  padding-bottom: 5px;
+  border-bottom: solid 1px black;
+  width: 60%;
+  margin-left: 14%;
+}
+.welcome h1{
+  color: black ;
+  margin-left: 0;
+  margin-top: 60px;
+}
+
+
+/*------- PAGE 2 ------- */
+
+
+.us {
+  height: 100%;
+  text-align: center;
+  /*margin-top: auto;
+  margin-bottom: auto;*/
+}
+
+.us img{
+ width: 90%;
+  height: 42%;
+  margin-top: 34px;
+}
+
+.our-story {
+  margin-top: 12%;
+}
+
+.our-story ul{
+  color: black;
+  font-size: 23px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  list-style-type: none;
+}
+
+.our-story li {
+  margin-bottom: 26px;
+}
+
+.our-story span {
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
