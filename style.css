@@ -40,7 +40,6 @@ h1 {
 
 /*------- PAGE 1 ------- */
 
-
 .postcard {
   display: grid;
   grid-template-columns: 13% 32% 55%;
@@ -214,7 +213,7 @@ h1 {
 /*------- PAGE 3 ------- */
 .postcard-two {
   display: grid;
-  grid-template-columns: 13% 50% 37%;
+  grid-template-columns:  13% 50% 17% 20%;
   grid-gap: 0px;
   background-color: #eddfc6bd;
   height: 90vh;
@@ -224,7 +223,126 @@ h1 {
   margin-right: auto;
 }
 
+/*---- COL 2 ----*/
+.schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
 
+.schedule h1 {
+  color: black;
+  font-size: 30px;
+}
+
+.schedule h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 23px;
+  margin: 0;
+}
+
+.schedule h5 {
+  /*margin-bottom: 20%;*/
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 23px;
+  /*margin-top: 0;
+  margin-bottom: 9%;*/
+  margin: 0;
+}
+
+/*---- COL 3 ----*/
+.days {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.fourteen h1{
+  color: black;
+  font-size: 38px;
+  text-align: left;
+  transform: rotate( -10.2deg) skew( -2.2deg);
+}
+
+.fifteen h1{
+  color: black;
+  font-size: 38px;
+  text-align: left;
+  transform: rotate( -10.2deg) skew( -2.2deg);
+}
+
+.line {
+  height: 14px;
+  width: 20%;
+  border-bottom: solid 1px black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---- COL 4 ----*/
+.home-button-two {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: solid 1px grey;
+  margin-left: 67%;
+  margin-bottom: 14px;
+/*  margin-top: 12%;*/
+}
+
+.home-button-two p {
+  font-size: 19px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.home-button-two span {
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.right-side-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*------- PAGE 4 ------- */
+
+.postcard-four {
+  display: grid;
+  grid-template-columns: 13% 65% 22%;
+  grid-gap: 0px;
+  background-color: #eddfc6bd;
+  height: 90vh;
+  width: 90%;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.middle-side {
+  text-align: center;
+}
+
+.map {
+  margin-top: 10%;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  margin-top: 6%;
+}
 
 
 
