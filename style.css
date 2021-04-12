@@ -21,7 +21,7 @@ body {
   font-weight: 100;
 }
 
-h3 {
+.name h1 {
   color: #EDDFC6;
   font-size: 45px;
   margin: 0;
@@ -29,7 +29,7 @@ h3 {
   font-weight: 100;
 }
 
-h1 {
+.name span {
   color: #EDDFC6;
   font-size: 58px;
   margin: 15px;
@@ -37,12 +37,12 @@ h1 {
   font-weight: 100;
 }
 
-
 /*------- PAGE 1 ------- */
+
 
 .postcard {
   display: grid;
-  grid-template-columns: 13% 32% 55%;
+  grid-template-columns: 13% 32% 37% 18%;
   grid-gap: 0px;
   background-color: #eddfc6bd;
   height: 90vh;
@@ -53,106 +53,132 @@ h1 {
 }
 
 /*---- COL 1 ----*/
-.date {
+
+
+.first-column {
   display: flex;
   align-items: flex-end;
-  justify-content: left;
-  margin-bottom: 19%;
-  margin-left: 18%;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-}
-
-.date h2 {
-  margin-bottom: 0;
-}
-
-.date h2 span {
-  font-size: 30px;
-  font-weight: 100;
-}
-
-/*---- COL 2 ----*/
-.location {
-  height: 87%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.location img {
-  display: flex;
-  width: 100%;
-  height: 100%
-}
-
-
-/*---- COL 3 ----*/
-
-.post-stamp {
-  margin-left: 74%;
-  width: 20%;
-  height: 12%;
-  border: solid 1px black;
-  text-align: center;
-  margin-top: 45px;
-  display: flex;
-  align-items: center;
+  /*background-color: blue;*/
   justify-content: center;
 }
 
+.first-column span {
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+}
+
+.first-column h1 {
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+}
+
+/*---- COL 2 ----*/
+
+
+.location {
+  display: flex;
+  height: 100%;
+  /*background-color: yellow;*/
+}
+
+.location img {
+  margin: auto;
+  width: 100%;
+  height: 89%;
+}
+
+/*---- COL 3 ----*/
+
+.welcome {
+  /*background-color: red;*/
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome h1 {
+  font-size: 55px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-left: 12%;
+  border-bottom: solid 1px black;
+  width: 75%;
+  /*background-color: green;*/
+  margin-top: 65%;
+  margin-bottom: 0;
+}
+
+.welcome p {
+  width: 75%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  margin-left: 12%;
+  font-size: 22px;
+}
+
+/*---- COL 4 ----*/
+
+.fourth-column {
+  /*background-color: purple;*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 11%;
+  font-family: 'Lato', sans-serif;
+}
+
+.post-stamp {
+  width: 75%;
+  border: solid 1px black;
+  margin-top: 34px;
+  height: 10%;
+}
+
 .post-stamp p {
- margin: 0;
- font-size: 23px;
- font-family: 'Lato', sans-serif;
- font-weight: 100;
+  text-align: center;
+  margin: 0;
+  font-weight: 100;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .post-stamp span {
-  font-size: 26px;
+  font-size: 35px;
 }
 
-
 .tab {
-  margin-top: 8%;
+  text-align: right;
+  margin-top: 20%;
+}
+
+.tab h3 {
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 2em;
 }
 
 .tab span {
   font-weight: bold;
 }
 
-.tab h3 {
-  color: black;
-  font-size: 23px;
-  text-align: right;
-  margin-right: 6%;
-  margin-top: 30px;
-}
+
+/*------- PAGE 2 -------
 
 
-.welcome {
-  padding-bottom: 5px;
-  border-bottom: solid 1px black;
-  width: 60%;
-  margin-left: 14%;
-}
-.welcome h1{
-  color: black ;
-  margin-left: 0;
-  margin-top: 60px;
-}
-
-
-/*------- PAGE 2 ------- */
-
-
-.us {
+/*.us {
   height: 100%;
   text-align: center;
   /*margin-top: auto;
   margin-bottom: auto;*/
-}
+/*}*/
 
-.us img{
+/*.us img{
  width: 90%;
   height: 42%;
   margin-top: 34px;
@@ -176,9 +202,9 @@ h1 {
 
 .our-story .far {
   margin-right: 12px;
-}
+}*/
 
-.our-story li {
+/*.our-story li {
   margin-bottom: 26px;
 }
 
@@ -196,9 +222,9 @@ h1 {
   border: solid 1px grey;
   margin-left: 88%;
   margin-top: 12%;
-}
+}*/
 
-.home-button p {
+/*.home-button p {
   font-size: 19px;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
@@ -208,10 +234,10 @@ h1 {
   font-size: 22px;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-}
+}*/
 
 /*------- PAGE 3 ------- */
-.postcard-two {
+/*.postcard-two {
   display: grid;
   grid-template-columns:  13% 50% 17% 20%;
   grid-gap: 0px;
@@ -221,10 +247,10 @@ h1 {
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 /*---- COL 2 ----*/
-.schedule {
+/*.schedule {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -241,20 +267,19 @@ h1 {
   font-weight: 100;
   font-size: 23px;
   margin: 0;
-}
+}*/
 
-.schedule h5 {
-  /*margin-bottom: 20%;*/
+/*.schedule h5 {
+
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-size: 23px;
-  /*margin-top: 0;
-  margin-bottom: 9%;*/
+
   margin: 0;
 }
-
+*/
 /*---- COL 3 ----*/
-.days {
+/*.days {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -281,10 +306,10 @@ h1 {
   border-bottom: solid 1px black;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 /*---- COL 4 ----*/
-.home-button-two {
+/*.home-button-two {
   height: 70px;
   width: 70px;
   border-radius: 50%;
@@ -294,7 +319,7 @@ h1 {
   border: solid 1px grey;
   margin-left: 67%;
   margin-bottom: 14px;
-/*  margin-top: 12%;*/
+
 }
 
 .home-button-two p {
@@ -313,11 +338,11 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+}*/
 
 /*------- PAGE 4 ------- */
 
-.postcard-four {
+/*.postcard-four {
   display: grid;
   grid-template-columns: 13% 65% 22%;
   grid-gap: 0px;
@@ -341,14 +366,14 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   font-size: 30px;
-  margin-top: 6%;
+  margin-top: 8%;
 }
 
 
 
 
 
-
+*/
 
 
 
