@@ -37,6 +37,11 @@ body {
   font-weight: 100;
 }
 
+.name a {
+  text-decoration: none;
+  color: black;
+}
+
 /*------- PAGE 1 ------- */
 
 
@@ -50,6 +55,7 @@ body {
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
+  border: dotted 1px black;
 }
 
 /*---- COL 1 ----*/
@@ -57,9 +63,10 @@ body {
 
 .first-column {
   display: flex;
-  align-items: flex-end;
-  /*background-color: blue;*/
+  flex-direction: column;
   justify-content: center;
+  height: 100%;
+  text-align: center;
 }
 
 .first-column span {
@@ -74,8 +81,14 @@ body {
   font-size: 25px;
 }
 
-/*---- COL 2 ----*/
+.first-column h2 {
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+}
 
+
+/*---- COL 2 ----*/
 
 .location {
   display: flex;
@@ -121,7 +134,7 @@ body {
 
 /*---- COL 4 ----*/
 
-.fourth-column {
+.last-column {
   /*background-color: purple;*/
   display: flex;
   flex-direction: column;
@@ -152,6 +165,11 @@ body {
   font-size: 35px;
 }
 
+.post-stamp a {
+  text-decoration: none;
+  color: black;
+}
+
 .tab {
   text-align: right;
   margin-top: 20%;
@@ -167,79 +185,68 @@ body {
   font-weight: bold;
 }
 
-
-/*------- PAGE 2 -------
-
-
-/*.us {
-  height: 100%;
-  text-align: center;
-  /*margin-top: auto;
-  margin-bottom: auto;*/
-/*}*/
-
-/*.us img{
- width: 90%;
-  height: 42%;
-  margin-top: 34px;
+.tab a {
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 2em;
+  text-decoration:none;
+  color: black;
 }
 
+/*------- PAGE 2 -------*/
+
+/*---- COL 2 ----*/
+.us {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.us img{
+  width: 90%;
+  height: 43%;
+}
+
+/*---- COL 3 ----*/
+
+
 .our-story {
-  margin-top: 09%;
+  display: flex;
+  /*background-color: purple;*/
+  height: 100%;
+  align-items: center;
 }
 
 .our-story ul{
   color: black;
-  font-size: 23px;
+  font-size: 22px;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   list-style-type: none;
+  align-items: center;
+}
+
+.our-story li {
+  margin-bottom: 8%;
+  line-height: 1.5em;
 }
 
 .our-story .fas {
-  margin-right: 12px;
-}
-
-.our-story .far {
-  margin-right: 12px;
-}*/
-
-/*.our-story li {
-  margin-bottom: 26px;
+  font-size: 19px;
 }
 
 .our-story span {
+  margin-left: 10%;
   font-size: 25px;
 }
 
-.home-button {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  border: solid 1px grey;
-  margin-left: 88%;
-  margin-top: 12%;
-}*/
-
-/*.home-button p {
-  font-size: 19px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-}
-
-.home-button span {
-  font-size: 22px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-}*/
-
 /*------- PAGE 3 ------- */
-/*.postcard-two {
+
+.postcard-two {
   display: grid;
-  grid-template-columns:  13% 50% 17% 20%;
+  grid-template-columns:  13% 50% 19% 18%;
   grid-gap: 0px;
   background-color: #eddfc6bd;
   height: 90vh;
@@ -247,104 +254,66 @@ body {
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
-}*/
+  border: dotted 1px black;
+}
 
 /*---- COL 2 ----*/
-/*.schedule {
+
+.schedule {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  text-align: center;
-}
-
-.schedule h1 {
-  color: black;
-  font-size: 30px;
-}
-
-.schedule h4 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  font-size: 23px;
-  margin: 0;
-}*/
-
-/*.schedule h5 {
-
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  font-size: 23px;
-
-  margin: 0;
-}
-*/
-/*---- COL 3 ----*/
-/*.days {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-}
-
-.fourteen h1{
-  color: black;
-  font-size: 38px;
-  text-align: left;
-  transform: rotate( -10.2deg) skew( -2.2deg);
-}
-
-.fifteen h1{
-  color: black;
-  font-size: 38px;
-  text-align: left;
-  transform: rotate( -10.2deg) skew( -2.2deg);
+  height: 100%;
 }
 
 .line {
-  height: 14px;
-  width: 20%;
+  width: 30%;
   border-bottom: solid 1px black;
   margin-left: auto;
   margin-right: auto;
-}*/
-
-/*---- COL 4 ----*/
-/*.home-button-two {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  border: solid 1px grey;
-  margin-left: 67%;
-  margin-bottom: 14px;
-
 }
 
-.home-button-two p {
-  font-size: 19px;
-  font-family: 'Lato', sans-serif;
+
+.schedule h1 {
+  font-size: 27px;
+}
+
+.schedule h4 {
+  font-size: 20px;
   font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
-.home-button-two span {
-  font-size: 22px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
+.schedule h5 {
+  margin-top: 3px;
+  font-size:15px;
 }
 
-.right-side-three {
+/*---- COL 3 ----*/
+
+.days {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}*/
+  justify-content: space-around;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.days h1 {
+  transform: rotate( -10.2deg) skew( -2.2deg);
+  font-size: 26px;
+}
+
 
 /*------- PAGE 4 ------- */
 
-/*.postcard-four {
+.postcard-three {
   display: grid;
-  grid-template-columns: 13% 65% 22%;
+  grid-template-columns: 13% 48% 21% 18%;
   grid-gap: 0px;
   background-color: #eddfc6bd;
   height: 90vh;
@@ -352,28 +321,55 @@ body {
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
+  border: dotted 1px black;
 }
 
-.middle-side {
-  text-align: center;
-}
-
+/*---- COL 2 ----*/
 .map {
-  margin-top: 10%;
-}
-
-.icons {
+  align-items: center;
   display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+/*---- COL 3 ----*/
+
+
+
+.transports {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.transports h3 {
+  text-align: left;
+  margin-left: 3%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: black;
+}
+
+.transports .fas {
   font-size: 30px;
-  margin-top: 8%;
+}
+
+.transports span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-left: 2%;
+  font-size: 27px;
 }
 
 
 
 
 
-*/
+
 
 
 
